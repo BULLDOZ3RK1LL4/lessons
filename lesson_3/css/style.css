@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+.title {
+   color: purple;
+}
+
+.title2 {
+   color: blueviolet;
+}
+
+.list {
+   color: mediumseagreen;
+}
+
+.sub-list {
+   color: greenyellow;
+}
+
+[href].hs1 {
+   color: mediumseagreen;
+}
+
+[href].hs2 {
+   color: greenyellow;
+}
+
+#info {
+   color: rosybrown;
+}
+
+div.text {
+   color: royalblue;
+}
+
+.text2 {
+   color: pink;
+}
+
+#name {
+   color: paleturquoise;
+}
+
+.name,
+.since {
+   color: palegreen;
+}
+
+#historyofla {
+   color: springgreen;
+}
+
+.precolon {
+   color: seagreen;
+}
+
+#history1 {
+   color:steelblue;
+}
+
+.spain {
+   color: orange;
+}
+
+#history2 {
+   color: gold;
+}
+
+.mexica {
+   color: rgb(235, 60, 60);
+}
+
+#history3 {
+   color: rgb(143, 6, 6);
+}
+
+.name.since {
+   color: chartreuse;
+}
+
+#history4 {
+   color: deeppink;
+}
+
+.rail + p {
+   color: fuchsia;
+}
+
+.hollywood ~ p {
+   color: hotpink;
+}
+
+[class*="about"] {
+   color: mediumslateblue;
+}
+
+[href] {
+   color: red;
+}
