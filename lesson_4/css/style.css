@@ -1,0 +1,222 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+   font-family: "Playfair Display";
+   src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Playfair Display";
+   src: url("../fonts/PlayfairDisplay-Regular.woff2'") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+.body {
+   background-color: blueviolet;
+   font-size: 20px;
+   line-height: 2;
+   white-space: normal;
+}
+
+.title {
+   color: rgb(255, 255, 255);
+   font-family: "Dancing Script", Arial;
+   font-size: 90px;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.inline-block {
+   margin: 10px 340px;
+}
+
+.mark {
+   font-family: "Pacifico", Arial;
+   font-style: oblique;
+   font-size: 30px;
+}
+
+.title2 {
+   color: white;
+   font-family: "Pacifico", Arial;
+   font-style: oblique;
+   text-indent: 40px;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+.content {
+   color: deeppink;
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   font-style: italic;
+   text-decoration: underline;
+   margin-left: 40px;
+}
+
+
+.list {
+color: deeppink;
+font-family: Arial;
+font-weight: 600;
+font-style: italic;
+}
+
+[href].hs1 {
+   color: deeppink;
+   font-family: Arial;
+   font-weight: 900;
+   font-style: italic;
+}
+
+#history {
+   color: rgb(255, 255, 255);
+   font-family: "Times New Roman", Arial, serif;
+   font-weight: 700;
+   text-align: center;
+   text-shadow: 6px 6px 1px black;
+}
+
+.text {
+   color: rgb(255, 255, 255);
+   font-family: Arial, sans-serif;
+   font-weight: 900;
+   text-shadow: 6px 6px 1px black;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#geography {
+   color: rgb(231, 127, 8);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+}
+
+.text2 {
+   color: rgb(231, 127, 8);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   text-transform: capitalize;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#climat {
+   color: rgb(198, 231, 8);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+}
+
+.text3 {
+   color: rgb(198, 231, 8);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   text-transform: lowercase;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#citizens {
+   color: rgb(27, 231, 8);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+}
+
+.text4 {
+   color: rgb(27, 231, 8);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   text-transform: uppercase;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#transport {
+   color: rgb(8, 231, 146);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+}
+
+.text5 {
+   color: rgb(8, 231, 146);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#economy {
+   color: rgb(8, 105, 231);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+   text-decoration: line-through;
+}
+
+.text6 {
+   color: rgb(8, 105, 231);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   text-decoration: line-through;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+#culture {
+   color: rgb(30, 8, 231);
+   font-family: "Playfair Display", Arial;
+   font-weight: 700;
+   text-align: center;
+}
+
+.text7 {
+   color: rgb(30, 8, 231);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   margin-top: 45px;
+   margin-bottom: 45px;
+   text-indent: 40px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+[href].link {
+   color: rgb(255, 0, 0);
+   font-family: "Pacifico", Arial;
+   font-weight: 400;
+   font-size: 20px;
+   text-decoration: overline;
+   padding-left: 35px;
+   padding-right: 35px;
+}
